@@ -1,0 +1,24 @@
+{
+  "name": "placement-cell",
+  "version": "1.0.0",
+  "description": "App to keep track of the student placement details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnushaSSR/Placement-cell.git"
+  },
+  "keywords": [
+    "Placement",
+    "career",
+    "camp"
+  ],
+  "author": "Anusha N S S R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnushaSSR/Placement-cell/issues"
+  },
+  "homepage": "https://github.com/AnushaSSR/Placement-cell#readme"
+}
