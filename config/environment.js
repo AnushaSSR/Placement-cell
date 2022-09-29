@@ -1,33 +1,28 @@
-const fs = require('fs');
-const rfs = require('rotating-file-stream');
-const path = require('path');
+// const fs = require('fs');
+// const rfs = require('rotating-file-stream');
+// const path = require('path');
 
-// //directory to save the logs
-// const logDirectory = path.join(__dirname, '../production_logs');
+// // //directory to save the logs
+// // const logDirectory = path.join(__dirname, '../production_logs');
 
-// //check whether the production_logs already exists or need to be created
-// fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
+// // //check whether the production_logs already exists or need to be created
+// // fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
 
-// const accessLogStream = rfs.createStream('access.log', {
-//     interval: '1d',
-//     path: logDirectory
-// });
+// // const accessLogStream = rfs.createStream('access.log', {
+// //     interval: '1d',
+// //     path: logDirectory
+// // });
 
 
 
-const development = {
-    name: 'development',
-    // asset_path: './assets',
-    // session_cookie_key: 'blahsecret',
-    db: 'codeial_development'
+// const development = {
+//     name: 'development',
+//     // asset_path: './assets',
+//     // session_cookie_key: 'blahsecret',
+//     db: 'PlacementCell'
     
-}
+// }
 
-const production = {
-    name: 'production',
-    db: process.env.CODEIAL_DB
-}
-
-//to chcek wwhether the enviroenment id set to development or production
- // module.exports= production;
-// module.exports= development;nvm
+// //to chcek wwhether the enviroenment id set to development or production
+//  // module.exports= production;
+// // module.exports= development;nvm

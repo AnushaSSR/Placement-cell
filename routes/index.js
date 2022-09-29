@@ -6,7 +6,7 @@ const router = express.Router();
 const homeController = require('../controllers/home_controller');
 
 router.get('/', homeController.home);
-router.use('/employee', require('./employee'));
+router.use('/user', require('./user'));
 
 console.log("Routes loaded");
 
