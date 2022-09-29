@@ -4,7 +4,8 @@
   "description": "App to keep track of the student placement details",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/AnushaSSR/Placement-cell/issues"
   },
-  "homepage": "https://github.com/AnushaSSR/Placement-cell#readme"
+  "homepage": "https://github.com/AnushaSSR/Placement-cell#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1"
+  }
 }
