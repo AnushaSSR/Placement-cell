@@ -9,7 +9,6 @@ const interviewSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    
     //list of array  to get the student data , mapping to set the status of the interview attended
     studentsList: [
         {
@@ -30,6 +29,7 @@ const interviewSchema = new mongoose.Schema({
 
     ],
 
+    
 }, {
     timestamps: true
 });
